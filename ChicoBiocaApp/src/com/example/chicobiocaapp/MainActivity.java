@@ -1,16 +1,13 @@
 package com.example.chicobiocaapp;
 
-import android.support.v4.app.Fragment;
 import android.app.Activity;
 import android.content.Intent;
 import android.media.MediaPlayer;
 import android.os.Bundle;
-import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.View.OnClickListener;
-import android.view.ViewGroup;
 import android.widget.Button;
 
 public class MainActivity extends Activity {
@@ -30,6 +27,7 @@ public class MainActivity extends Activity {
 				Intent intent = new Intent(MainActivity.this, RemixActivity.class);
 				startActivity(intent);
 				
+				
 			}
 		});
     }
@@ -45,7 +43,6 @@ public class MainActivity extends Activity {
     public boolean onOptionsItemSelected(MenuItem item) {
         int id = item.getItemId();
         if (id == R.id.action_settings) {
-            return true;
         }
         return super.onOptionsItemSelected(item);
     }

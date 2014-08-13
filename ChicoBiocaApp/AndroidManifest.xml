@@ -23,6 +23,7 @@
             </intent-filter>
         </activity>
         <activity android:name="com.example.chicobiocaapp.RemixActivity" />
+        <activity android:name="com.example.chicobiocaapp.Settings" />
     </application>
 
 </manifest>

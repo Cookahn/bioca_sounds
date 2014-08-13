@@ -18,6 +18,7 @@ public final class R {
     }
     public static final class array {
         public static final int phraseBioca=0x7f0d0000;
+        public static final int title_bioca=0x7f0d0001;
     }
     public static final class attr {
         /**  Custom divider drawable to use for elements in the action bar. 
@@ -1082,11 +1083,14 @@ containing a value of this type.
         public static final int abc_textfield_searchview_right_holo_light=0x7f020056;
         public static final int background=0x7f020057;
         public static final int backgroundtofuck=0x7f020058;
-        public static final int button_song=0x7f020059;
-        public static final int button_to_fuck=0x7f02005a;
-        public static final int chico=0x7f02005b;
-        public static final int foto=0x7f02005c;
-        public static final int ic_launcher=0x7f02005d;
+        public static final int button_bioca_green=0x7f020059;
+        public static final int button_bioca_pink=0x7f02005a;
+        public static final int button_bioca_purple=0x7f02005b;
+        public static final int button_song=0x7f02005c;
+        public static final int button_to_fuck=0x7f02005d;
+        public static final int chico=0x7f02005e;
+        public static final int foto=0x7f02005f;
+        public static final int ic_launcher=0x7f020060;
     }
     public static final class id {
         public static final int action_bar=0x7f06001c;
@@ -1213,12 +1217,27 @@ containing a value of this type.
         public static final int main=0x7f0e0000;
     }
     public static final class raw {
-        public static final int cu_e_pa=0x7f050000;
-        public static final int eu_quero_saber=0x7f050001;
-        public static final int glu=0x7f050002;
-        public static final int pff=0x7f050003;
-        public static final int pff_pff=0x7f050004;
-        public static final int transa_nessa_porra=0x7f050005;
+        public static final int chupa_um_cu=0x7f050000;
+        public static final int comer_vagina=0x7f050001;
+        public static final int eu_quero_sabe=0x7f050002;
+        public static final int fude_ate_o_talo=0x7f050003;
+        public static final int glooe=0x7f050004;
+        public static final int gluu=0x7f050005;
+        public static final int nessa_porra=0x7f050006;
+        public static final int pa_e_sei_que_la=0x7f050007;
+        public static final int pff=0x7f050008;
+        public static final int pff_pff=0x7f050009;
+        public static final int pff_pff_pff=0x7f05000a;
+        public static final int quem_e_que_transa=0x7f05000b;
+        public static final int quem_transa_nessa_porra=0x7f05000c;
+        public static final int quero_nem_saber=0x7f05000d;
+        public static final int sexo_anal=0x7f05000e;
+        public static final int smack=0x7f05000f;
+        public static final int tabaco_massa=0x7f050010;
+        public static final int transa_nessa_porra=0x7f050011;
+        public static final int trasa_mesmo=0x7f050012;
+        public static final int tudo_mais=0x7f050013;
+        public static final int undefined=0x7f050014;
     }
     public static final class string {
         /**  Content description for the action bar "home" affordance. [CHAR LIMIT=NONE] 
@@ -1262,33 +1281,36 @@ containing a value of this type.
          */
         public static final int abc_shareactionprovider_share_with_application=0x7f0b000b;
         public static final int action_settings=0x7f0b000f;
-        public static final int anal_sex=0x7f0b0017;
-        public static final int aoe=0x7f0b0026;
+        public static final int anal_sex=0x7f0b001a;
+        public static final int aoe=0x7f0b0029;
         public static final int app_name=0x7f0b000d;
         public static final int are_you_ready=0x7f0b000e;
-        public static final int cool_tocacco=0x7f0b0020;
-        public static final int everything=0x7f0b001d;
-        public static final int for_us=0x7f0b0021;
-        public static final int fuck_until=0x7f0b0025;
-        public static final int fuck_vagina=0x7f0b001c;
-        public static final int glooe=0x7f0b0016;
-        public static final int gluu=0x7f0b0015;
-        public static final int have_sex=0x7f0b001b;
-        public static final int i_dont_wanna_know=0x7f0b001e;
+        public static final int clean_version=0x7f0b0012;
+        public static final int cool_tocacco=0x7f0b0023;
+        public static final int everything=0x7f0b0020;
+        public static final int for_us=0x7f0b0024;
+        public static final int fuck_until=0x7f0b0028;
+        public static final int fuck_vagina=0x7f0b001f;
+        public static final int glooe=0x7f0b0019;
+        public static final int gluu=0x7f0b0018;
+        public static final int have_sex=0x7f0b001e;
+        public static final int i_dont_wanna_know=0x7f0b0021;
         public static final int i_want_to_fuck=0x7f0b0010;
         /**  Bioca phrases 
          */
-        public static final int i_want_to_know=0x7f0b0012;
-        public static final int in_this_shit=0x7f0b001f;
-        public static final int lh_smack=0x7f0b0018;
-        public static final int pa_and=0x7f0b001a;
-        public static final int pff=0x7f0b0022;
-        public static final int pff_pff=0x7f0b0023;
-        public static final int pff_pff_pff=0x7f0b0024;
-        public static final int suck_an_ass=0x7f0b0019;
+        public static final int i_want_to_know=0x7f0b0015;
+        public static final int in_this_shit=0x7f0b0022;
+        public static final int lh_smack=0x7f0b001b;
+        public static final int no=0x7f0b0014;
+        public static final int pa_and=0x7f0b001d;
+        public static final int pff=0x7f0b0025;
+        public static final int pff_pff=0x7f0b0026;
+        public static final int pff_pff_pff=0x7f0b0027;
+        public static final int suck_an_ass=0x7f0b001c;
         public static final int suck_an_ass_and_pa=0x7f0b0011;
-        public static final int who_fuck=0x7f0b0013;
-        public static final int who_fuck_in_this_shit=0x7f0b0014;
+        public static final int who_fuck=0x7f0b0016;
+        public static final int who_fuck_in_this_shit=0x7f0b0017;
+        public static final int yes=0x7f0b0013;
     }
     public static final class style {
         /** 

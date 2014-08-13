@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Chico Bioca Remix</string>
+    <string name="are_you_ready">Está preparado para a melhor TRANSA da sua Vida?</string>
+    <string name="action_settings">Settings</string>
+    <string name="i_want_to_fuck">Quero Transá</string>
+    <string name="suck_an_ass_and_pa">Chupe uns C# e Pá</string>
+    
+    
+    <!-- Bioca phrases -->
+    <string name="i_want_to_know">Eu quero sabê</string>
+	<string name="who_fuck">Quem é que transa</string>
+	<string name="who_fuck_in_this_shit">Quem transa nessa porra</string>
+	<string name="gluu">Gluuu</string>
+	<string name="glooe">Gloooe</string>
+	<string name="anal_sex">Sexo Anal</string>
+	<string name="lh_smack">Lhlhlh smack</string>
+	<string name="suck_an_ass">Chupá um cú</string>
+	<string name="pa_and">Pá e sei que lá</string>
+	<string name="have_sex">Transá mesmo</string>
+	<string name="fuck_vagina">Comer vagina</string>
+	<string name="everything">Tudo mais</string>
+	<string name="i_dont_wanna_know">Quero nem saber nesse caraio</string>
+	<string name="in_this_shit">Nessa porra</string>
+	<string name="cool_tocacco">Um tabaco bem massa</string>
+	<string name="for_us">Pra gente</string>
+	<string name="pff">Pff</string>
+	<string name="pff_pff">Pff Pfff</string>
+	<string name="pff_pff_pff">Pf Pff Pfff</string>
+	<string name="fuck_until">Fudê até o talo</string>
+	<string name="aoe">Aeaoeaoeeae</string>
+	
+	<string-array name="phraseBioca">
+	    <item name="hue"></item>
+	</string-array>
+	
+</resources>

@@ -1,0 +1,47 @@
+package com.example.chicobiocaapp;
+
+import android.app.Activity;
+import android.view.View.OnClickListener;
+import android.view.ViewGroup.LayoutParams;
+import android.media.MediaPlayer;
+import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
+import android.widget.TextView;
+
+public class RemixActivity extends Activity {
+	Button buttonBioca;
+	TextView textBioca;
+
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.remix_activity);
+
+		buttonBioca = (Button) findViewById(R.id.button_bioca);
+		textBioca = (TextView) findViewById(R.id.text_bioca);
+
+		final MediaPlayer arrayMedia[] = new MediaPlayer[20];
+		final String [] arrayPhrase= getResources().getStringArray(R.array.phraseBioca);
+
+		arrayMedia[0] = MediaPlayer.create(this, R.raw.eu_quero_saber);
+		arrayMedia[3] = MediaPlayer.create(this, R.raw.glu);
+		arrayMedia[7] = MediaPlayer.create(this, R.raw.cu_e_pa);
+		arrayMedia[18] = MediaPlayer.create(this, R.raw.pff_pff);
+		
+		for (int i = 0; i < arrayMedia.length; i++) {
+			buttonBioca = new Button(this);
+			buttonBioca.setLayoutParams(new LayoutParams(LayoutParams.WRAP_CONTENT, LayoutParams.WRAP_CONTENT));
+			buttonBioca.setText(arrayPhrase[i]);
+		}
+		buttonBioca.setOnClickListener(new OnClickListener() {
+
+			@Override
+			public void onClick(View v) {
+				arrayMedia[1].start();
+				textBioca.setText(R.string.i_want_to_know);
+			}
+		});
+
+	}
+
+}

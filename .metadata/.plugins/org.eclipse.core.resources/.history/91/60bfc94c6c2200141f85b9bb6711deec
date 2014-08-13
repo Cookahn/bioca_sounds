@@ -1,0 +1,67 @@
+package com.example.chicobiocaapp;
+
+import android.app.Activity;
+import android.view.View.OnClickListener;
+import android.view.ViewGroup.LayoutParams;
+import android.media.MediaPlayer;
+import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
+import android.widget.LinearLayout;
+import android.widget.TextView;
+import android.widget.Toast;
+
+public class RemixActivity extends Activity {
+	Button buttonBioca;
+	TextView textBioca;
+	LinearLayout linearButton;
+
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.remix_activity);
+
+//		buttonBioca = (Button) findViewById(R.id.button_bioca);
+		textBioca = (TextView) findViewById(R.id.text_bioca);
+		linearButton = (LinearLayout) findViewById(R.id.linear_button);
+		final MediaPlayer arrayMedia[] = new MediaPlayer[20];
+		final String [] arrayPhrase= getResources().getStringArray(R.array.phraseBioca);
+		
+//		arrayMedia[0] = MediaPlayer.create(this, R.raw.eu_quero_saber);
+//		arrayMedia[3] = MediaPlayer.create(this, R.raw.glu);
+//		arrayMedia[7] = MediaPlayer.create(this, R.raw.cu_e_pa);
+//		arrayMedia[18] = MediaPlayer.create(this, R.raw.pff_pff);
+		
+		    LinearLayout rowBioca = new LinearLayout(this);
+		    rowBioca.setLayoutParams(new LayoutParams(LayoutParams.MATCH_PARENT, LayoutParams.WRAP_CONTENT));
+
+		for (int i = 0; i < arrayPhrase.length; i++) {
+			
+			if(i%3 == 0){
+			    LinearLayout linear = new LinearLayout(this);
+			    linear.setLayoutParams(new LayoutParams(LayoutParams.MATCH_PARENT, LayoutParams.WRAP_CONTENT));	
+			}
+			Button buttonBioca = new Button(this);
+			buttonBioca.setLayoutParams(new LayoutParams(220, 100));	
+			buttonBioca.setText(arrayPhrase[i]);
+			buttonBioca.setPadding(4, 4, 4, 4);
+			buttonBioca.setTextSize(12);
+			buttonBioca.setBackgroundResource(R.drawable.button_song);
+			rowBioca.addView(buttonBioca);
+		
+		linearButton.addView(rowBioca);
+	}
+		
+		
+//		buttonBioca.setOnClickListener(new OnClickListener() {
+//
+//			@Override
+//			public void onClick(View v) {
+//				arrayMedia[1].start();
+//				textBioca.setText(R.string.i_want_to_know);
+//			}
+//		});
+//
+//	}
+	}
+
+}

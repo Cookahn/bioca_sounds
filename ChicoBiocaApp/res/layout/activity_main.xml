@@ -1,4 +1,4 @@
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -23,21 +23,36 @@
         android:textSize="25sp" />
 
     <LinearLayout
+        android:id="@+id/linear_button_want"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:gravity="center_vertical"
+        android:layout_height="150dp"
+        android:gravity="bottom"
         android:orientation="vertical" >
-
 
         <Button
             android:id="@+id/i_want_to_fuck"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_marginBottom="70dp"
+            android:layout_gravity="bottom|center_horizontal"
             android:background="@drawable/button_to_fuck"
             android:text="@string/i_want_to_fuck"
             android:textColor="#fff" />
     </LinearLayout>
 
-</LinearLayout>
+    <Button
+        android:id="@+id/secret_button_bioca"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_below="@+id/linear_button_want"
+        android:layout_alignParentBottom="true"
+        android:background="#00000000" />
+
+    <ImageView
+        android:id="@+id/nego_bam_secret"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/nego_bamm"
+        android:visibility="gone"
+        android:layout_alignParentBottom="true" />
+
+</RelativeLayout>

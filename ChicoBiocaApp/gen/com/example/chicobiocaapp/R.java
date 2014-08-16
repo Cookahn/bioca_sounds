@@ -15,6 +15,8 @@ public final class R {
         public static final int abc_slide_in_top=0x7f040003;
         public static final int abc_slide_out_bottom=0x7f040004;
         public static final int abc_slide_out_top=0x7f040005;
+        public static final int nego_anim=0x7f040006;
+        public static final int rot_nego=0x7f040007;
     }
     public static final class array {
         public static final int phraseBioca=0x7f0d0000;
@@ -1083,14 +1085,18 @@ containing a value of this type.
         public static final int abc_textfield_searchview_right_holo_light=0x7f020056;
         public static final int background=0x7f020057;
         public static final int backgroundtofuck=0x7f020058;
-        public static final int button_bioca_green=0x7f020059;
-        public static final int button_bioca_pink=0x7f02005a;
-        public static final int button_bioca_purple=0x7f02005b;
-        public static final int button_song=0x7f02005c;
-        public static final int button_to_fuck=0x7f02005d;
-        public static final int chico=0x7f02005e;
-        public static final int foto=0x7f02005f;
-        public static final int ic_launcher=0x7f020060;
+        public static final int bioca_side_pink=0x7f020059;
+        public static final int bioca_side_purple=0x7f02005a;
+        public static final int button_bioca_green=0x7f02005b;
+        public static final int button_bioca_pink=0x7f02005c;
+        public static final int button_bioca_purple=0x7f02005d;
+        public static final int button_song=0x7f02005e;
+        public static final int button_to_fuck=0x7f02005f;
+        public static final int foto=0x7f020060;
+        public static final int ic_launcher=0x7f020061;
+        public static final int icon_bioca_original=0x7f020062;
+        public static final int nego_bam=0x7f020063;
+        public static final int nego_bamm=0x7f020064;
     }
     public static final class id {
         public static final int action_bar=0x7f06001c;
@@ -1104,7 +1110,6 @@ containing a value of this type.
         public static final int action_menu_divider=0x7f060016;
         public static final int action_menu_presenter=0x7f060017;
         public static final int action_mode_close_button=0x7f060024;
-        public static final int action_settings=0x7f06003f;
         public static final int activity_chooser_view_content=0x7f060025;
         public static final int always=0x7f06000b;
         public static final int beginning=0x7f060011;
@@ -1120,14 +1125,16 @@ containing a value of this type.
         public static final int expanded_menu=0x7f06002c;
         public static final int home=0x7f060014;
         public static final int homeAsUp=0x7f060005;
-        public static final int i_want_to_fuck=0x7f06003c;
+        public static final int i_want_to_fuck=0x7f06003d;
         public static final int icon=0x7f06002a;
         public static final int ifRoom=0x7f06000a;
         public static final int image=0x7f060027;
-        public static final int linear_button=0x7f06003e;
+        public static final int linear_button=0x7f060041;
+        public static final int linear_button_want=0x7f06003c;
         public static final int listMode=0x7f060001;
         public static final int list_item=0x7f060029;
         public static final int middle=0x7f060012;
+        public static final int nego_bam_secret=0x7f06003f;
         public static final int never=0x7f060009;
         public static final int none=0x7f060010;
         public static final int normal=0x7f060000;
@@ -1144,6 +1151,7 @@ containing a value of this type.
         public static final int search_plate=0x7f060036;
         public static final int search_src_text=0x7f060037;
         public static final int search_voice_btn=0x7f06003b;
+        public static final int secret_button_bioca=0x7f06003e;
         public static final int shortcut=0x7f06002e;
         public static final int showCustom=0x7f060007;
         public static final int showHome=0x7f060004;
@@ -1151,7 +1159,7 @@ containing a value of this type.
         public static final int split_action_bar=0x7f06001e;
         public static final int submit_area=0x7f060039;
         public static final int tabMode=0x7f060002;
-        public static final int text_bioca=0x7f06003d;
+        public static final int text_bioca=0x7f060040;
         public static final int title=0x7f06002b;
         public static final int top_action_bar=0x7f060020;
         public static final int up=0x7f060021;
@@ -1223,21 +1231,22 @@ containing a value of this type.
         public static final int fude_ate_o_talo=0x7f050003;
         public static final int glooe=0x7f050004;
         public static final int gluu=0x7f050005;
-        public static final int nessa_porra=0x7f050006;
-        public static final int pa_e_sei_que_la=0x7f050007;
-        public static final int pff=0x7f050008;
-        public static final int pff_pff=0x7f050009;
-        public static final int pff_pff_pff=0x7f05000a;
-        public static final int quem_e_que_transa=0x7f05000b;
-        public static final int quem_transa_nessa_porra=0x7f05000c;
-        public static final int quero_nem_saber=0x7f05000d;
-        public static final int sexo_anal=0x7f05000e;
-        public static final int smack=0x7f05000f;
-        public static final int tabaco_massa=0x7f050010;
-        public static final int transa_nessa_porra=0x7f050011;
-        public static final int trasa_mesmo=0x7f050012;
-        public static final int tudo_mais=0x7f050013;
-        public static final int undefined=0x7f050014;
+        public static final int gozar_your_ass=0x7f050006;
+        public static final int nessa_porra=0x7f050007;
+        public static final int pa_e_sei_que_la=0x7f050008;
+        public static final int pff=0x7f050009;
+        public static final int pff_pff=0x7f05000a;
+        public static final int pff_pff_pff=0x7f05000b;
+        public static final int quem_e_que_transa=0x7f05000c;
+        public static final int quem_transa_nessa_porra=0x7f05000d;
+        public static final int quero_nem_saber=0x7f05000e;
+        public static final int sexo_anal=0x7f05000f;
+        public static final int smack=0x7f050010;
+        public static final int tabaco_massa=0x7f050011;
+        public static final int transa_nessa_porra=0x7f050012;
+        public static final int trasa_mesmo=0x7f050013;
+        public static final int tudo_mais=0x7f050014;
+        public static final int undefined=0x7f050015;
     }
     public static final class string {
         /**  Content description for the action bar "home" affordance. [CHAR LIMIT=NONE] 

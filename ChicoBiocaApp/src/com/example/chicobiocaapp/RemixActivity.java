@@ -3,14 +3,19 @@ package com.example.chicobiocaapp;
 import java.util.ArrayList;
 import java.util.Random;
 
+import android.annotation.SuppressLint;
 import android.app.Activity;
 import android.graphics.Color;
 import android.graphics.Paint.Align;
 import android.text.Layout.Alignment;
+import android.util.Log;
 import android.view.Gravity;
 import android.view.View.OnClickListener;
+import android.view.View.OnLongClickListener;
 import android.view.ViewGroup.LayoutParams;
 import android.media.MediaPlayer;
+import android.media.RingtoneManager;
+import android.net.Uri;
 import android.opengl.Visibility;
 import android.os.Bundle;
 import android.view.View;
@@ -35,6 +40,7 @@ public class RemixActivity extends Activity {
 		final String arrayPhrase[]= getResources().getStringArray(R.array.phraseBioca);
 		final String arrayTitle[]= getResources().getStringArray(R.array.title_bioca);
 		final int arrayImageButton[] = new int[21];
+		Uri path = Uri.parse("android.resource://com.applenty/raw/mysoundfile");
 		
 		arrayMedia[0] = MediaPlayer.create(this, R.raw.eu_quero_sabe);
 		arrayMedia[1] = MediaPlayer.create(this, R.raw.quem_e_que_transa);
@@ -110,6 +116,7 @@ public class RemixActivity extends Activity {
 			buttonBioca.setBackgroundResource(arrayImageButton[i]);
 			buttonBioca.setOnClickListener(new OnClickListener() {
 				
+				@SuppressLint("NewApi")
 				@Override
 				public void onClick(View v) {
 					arrayMedia[aux].start();
@@ -117,6 +124,7 @@ public class RemixActivity extends Activity {
 					
 				}
 			});
+			
 			arrayButton.add(buttonBioca);
 
 		}

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundtofuck"
+    android:orientation="vertical" >
+    
+        <ImageView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:background="@drawable/bioca_side_purple"
+        
+        />
+    <ImageView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:background="@drawable/bioca_side_pink"
+        
+        />
+    <TextView
+        android:id="@+id/text_bioca"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="30dp"
+        android:gravity="center"
+        android:shadowColor="#666"
+        android:shadowDx="2"
+        android:background="#99333333"
+        android:shadowDy="2"
+        android:shadowRadius="6"
+        android:text="@string/suck_an_ass_and_pa"
+        android:textColor="#ccc"
+        android:textSize="22sp" />
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:id="@+id/linear_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"	
+            android:gravity="center_horizontal"
+            android:orientation="vertical" ></LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

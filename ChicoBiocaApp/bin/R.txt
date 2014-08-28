@@ -4,8 +4,10 @@ int anim abc_slide_in_bottom 0x7f040002
 int anim abc_slide_in_top 0x7f040003
 int anim abc_slide_out_bottom 0x7f040004
 int anim abc_slide_out_top 0x7f040005
-int anim nego_anim 0x7f040006
-int anim rot_nego 0x7f040007
+int anim grow_from_middle 0x7f040006
+int anim nego_anim 0x7f040007
+int anim rot_nego 0x7f040008
+int anim shrink_to_middle 0x7f040009
 int array phraseBioca 0x7f0d0000
 int array title_bioca 0x7f0d0001
 int attr actionBarDivider 0x7f01000f
@@ -344,9 +346,8 @@ int layout abc_search_dropdown_item_icons_2line 0x7f030015
 int layout abc_search_view 0x7f030016
 int layout abc_simple_decor 0x7f030017
 int layout activity_main 0x7f030018
-int layout button_item 0x7f030019
-int layout remix_activity 0x7f03001a
-int layout support_simple_spinner_dropdown_item 0x7f03001b
+int layout remix_activity 0x7f030019
+int layout support_simple_spinner_dropdown_item 0x7f03001a
 int menu main 0x7f0e0000
 int raw chupa_um_cu 0x7f050000
 int raw comer_vagina 0x7f050001

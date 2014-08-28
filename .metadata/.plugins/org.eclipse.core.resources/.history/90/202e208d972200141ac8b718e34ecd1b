@@ -1,0 +1,29 @@
+package com.example.chicobiocaapp;
+
+import android.app.Activity;
+import android.os.Bundle;
+import android.view.View;
+import android.view.View.OnClickListener;
+import android.widget.Button;
+import android.widget.Toast;
+
+public class Settings extends Activity{
+	Button yes, no;
+	 protected void onCreate(Bundle savedInstanceState) {
+	        super.onCreate(savedInstanceState);
+	        setContentView(R.layout.settings);
+	        yes = (Button) findViewById(R.id.yes_button);
+	        no = (Button) findViewById(R.id.no_button);
+	        
+	        
+	        yes.setOnClickListener(new OnClickListener() {
+				
+				@Override
+				public void onClick(View v) {
+					Toast.makeText(this, "hue", Toast.LENGTH_SHORT);
+					
+				}
+			});
+	 }
+
+}

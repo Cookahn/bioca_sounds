@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundtofuck"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/text_bioca"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="30dp"
+        android:gravity="center"
+        android:shadowColor="#666"
+        android:shadowDx="2"
+        android:background="#b3333333"
+        android:shadowDy="2"
+        android:shadowRadius="6"
+        android:text="@string/suck_an_ass_and_pa"
+        android:textColor="#ccc"
+        android:textSize="22sp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:id="@+id/linear_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical" >
+
+            <!--
+                 <Button 
+            android:id="@+id/i_want_to_know"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/button_song"
+            android:gravity="bottom|right"
+            android:text="@string/i_want_to_know"
+            android:textColor="#fff"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/glu"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/button_song"
+            android:gravity="bottom|right"
+            android:text="@string/gluu"
+            android:textColor="#fff"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/suck_ass"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/button_song"
+            android:gravity="bottom|right"
+            android:text="@string/suck_an_ass"
+            android:textColor="#fff"
+            android:textSize="12sp" />
+    </LinearLayout>
+    
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="3" >
+
+        <Button 
+            android:id="@+id/pff_pff_pff"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/button_song"
+            android:gravity="bottom|right"
+            android:text="@string/pff_pff_pff"
+            android:textColor="#fff"
+            android:textSize="12sp" />
+            -->
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

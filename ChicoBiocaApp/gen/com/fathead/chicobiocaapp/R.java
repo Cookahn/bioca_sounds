@@ -23,6 +23,8 @@ public final class R {
     public static final class array {
         public static final int phraseBioca=0x7f0d0000;
         public static final int title_bioca=0x7f0d0001;
+        public static final int title_bioca_raw=0x7f0d0003;
+        public static final int title_bioca_sound=0x7f0d0002;
     }
     public static final class attr {
         /**  Custom divider drawable to use for elements in the action bar. 
@@ -2699,7 +2701,7 @@ containing a value of this type.
          */
         public static final int[] MenuView = {
             0x010100ae, 0x0101012c, 0x0101012d, 0x0101012e,
-            0x0101012f, 0x01010130, 0x01010131, 0x01010435
+            0x0101012f, 0x01010130, 0x01010131, 0x01010438
         };
         /**
           <p>

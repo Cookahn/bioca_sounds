@@ -50,35 +50,82 @@
         <item name="in_this_shit">Nessa porra</item>
         <item name="cool_tocacco">Tabaco massa</item>
         <item name="pff">Pff 1</item>
-   	    <item name="pff_pff">Pff 2</item>
+        <item name="pff_pff">Pff 2</item>
         <item name="pff_pff_pff">Pff 3</item>
         <item name="fuck_until">Até Talo</item>
         <item name="aoe">Aoeaoe</item>
         <item name="aoe">Aeaoeaoeeae</item>
-        
     </string-array>
     
     <string-array name="title_bioca">
-    <item name="i_want_to_know">Eu quero sabê</item>
-	<item name="who_fuck">Quem é que transa</item>
-	<item name="who_fuck_in_this_shit">Quem transa nessa porra</item>
-	<item name="gluu">Gluuu Gluuu</item>
-	<item name="glooe">Gloooe</item>
-	<item name="anal_sex">Sexo Anal</item>
-	<item name="lh_smack">Lhlhlh smack</item>
-	<item name="suck_an_ass">Chupá um cú</item>
-	<item name="pa_and">Pá e sei que lá</item>
-	<item name="have_sex">Transá mesmo</item>
-	<item name="fuck_vagina">Comer vagina</item>
-	<item name="everything">Tudo mais</item>
-	<item name="i_dont_wanna_know">Quero nem saber nesse caraio</item>
-	<item name="in_this_shit">Nessa porra</item>
-	<item name="cool_tocacco">Um tabaco bem massa pra gente</item>
-	<item name="pff">Pff</item>
-	<item name="pff_pff">Pff Pfff</item>
-	<item name="pff_pff_pff">Pf Pff Pfff</item>
-	<item name="fuck_until">Fudê até o talo</item>
-	<item name="aoe">Aeaoeaoeeae</item>
+        <item name="i_want_to_know">Eu quero sabê</item>
+        <item name="who_fuck">Quem é que transa</item>
+        <item name="who_fuck_in_this_shit">Quem transa nessa porra</item>
+        <item name="gluu">Gluuu Gluuu</item>
+        <item name="glooe">Gloooe</item>
+        <item name="anal_sex">Sexo Anal</item>
+        <item name="lh_smack">Lhlhlh smack</item>
+        <item name="suck_an_ass">Chupá um cú</item>
+        <item name="pa_and">Pá e sei que lá</item>
+        <item name="have_sex">Transá mesmo</item>
+        <item name="fuck_vagina">Comer vagina</item>
+        <item name="everything">Tudo mais</item>
+        <item name="i_dont_wanna_know">Quero nem saber nesse caraio</item>
+        <item name="in_this_shit">Nessa porra</item>
+        <item name="cool_tocacco">Um tabaco bem massa pra gente</item>
+        <item name="pff">Pff</item>
+        <item name="pff_pff">Pff Pfff</item>
+        <item name="pff_pff_pff">Pf Pff Pfff</item>
+        <item name="fuck_until">Fudê até o talo</item>
+        <item name="aoe">Aeaoeaoeeae</item>
     </string-array>
+    
+    <string-array name="title_bioca_sound">
+        <item name="i_want_to_know">iwntoknw</item>
+        <item name="who_fuck">whofk</item>
+        <item name="who_fuck_in_this_shit">hwofkinthst</item>
+        <item name="gluu">gluugluu</item>
+        <item name="glooe">glooe</item>
+        <item name="anal_sex">asel</item>
+        <item name="lh_smack">lhlhsmk</item>
+        <item name="suck_an_ass">skans</item>
+        <item name="pa_and">pand</item>
+        <item name="have_sex">hvsx</item>
+        <item name="fuck_vagina">fkvgin</item>
+        <item name="everything">evrythi</item>
+        <item name="i_dont_wanna_know">idntwnnknow</item>
+        <item name="in_this_shit">inthisht</item>
+        <item name="cool_tocacco">cooltbcco</item>
+        <item name="pff">pff</item>
+        <item name="pff_pff">pffpff</item>
+        <item name="pff_pff_pff">pfpffpfff</item>
+        <item name="fuck_until">fkuntil</item>
+        <item name="aoe">aoeaoe</item>
+    </string-array>
+    
+    
+        <string-array name="title_bioca_raw">
+        <item name="i_want_to_know">eu_quero_sabe</item>
+        <item name="who_fuck">quem_e_que_transa</item>
+        <item name="who_fuck_in_this_shit">quem_transa_nessa_porra</item>
+        <item name="gluu">gluu</item>
+        <item name="glooe">glooe</item>
+        <item name="anal_sex">sexo_anal</item>
+        <item name="lh_smack">smacj</item>
+        <item name="suck_an_ass">chupa_um_cu</item>
+        <item name="pa_and">pa_e_sei_que_la</item>
+        <item name="have_sex">trasa_mesmo</item>
+        <item name="fuck_vagina">comer_vagina</item>
+        <item name="everything">tudo_mais</item>
+        <item name="i_dont_wanna_know">quero_nem_saber</item>
+        <item name="in_this_shit">nessa_porra</item>
+        <item name="cool_tocacco">tabaco_massa</item>
+        <item name="pff">pff</item>
+        <item name="pff_pff">pff_pff</item>
+        <item name="pff_pff_pff">pff_pff_pff</item>
+        <item name="fuck_until">fude_ate_o_talo</item>
+        <item name="aoe">undefined</item>
+    </string-array>
+    
 
 </resources>
